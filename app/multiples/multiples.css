@@ -1,0 +1,61 @@
+/* ========================
+Grid CSS
+========================== */
+
+.grid {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(1, auto);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.grid {
+		grid-template-columns: repeat(2, auto);
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.grid {
+		grid-template-columns: repeat(3, auto);
+	}
+}
+
+.grid__item--hidden {
+	display: none;
+}
+
+/* ========================
+End Grid CSS
+========================== */
+
+/* ========================
+Clickable Box CSS
+========================== */
+
+.clickable-box {
+	display: block;
+
+	padding: 4rem 2rem;
+
+	font-size: 3rem;
+	line-height: 4rem;
+	font-weight: 600;
+	text-align: center;
+	color: #000000;
+
+	background-color: #e4ee87;
+	text-decoration: none;
+	transition: all 0.25s ease-out;
+}
+
+.clickable-box:hover {
+	transform: scale(1.02);
+}
+
+.clickable-box--highlight {
+	background-color: #87ee8a;
+}
+
+/* ========================
+End Clickable Box CSS
+========================== */

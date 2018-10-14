@@ -1,3 +1,29 @@
-body {
-  color: red;
+/* ========================
+General Layout
+========================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+body {
+	font-size: 16px;
+	color: #fafafa;
+
+	background-color: #29343d;
+}
+
+.constraint-width {
+	padding: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1400px;
+}
+
+/* ========================
+End General Layout
+========================== */
+
+@import 'multiples/multiples.css';
